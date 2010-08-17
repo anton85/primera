@@ -1,0 +1,43 @@
+<p>
+  <b>Name:</b>
+  <%=h @form_contact.name %>
+</p>
+
+<p>
+  <b>Age:</b>
+  <%=h @form_contact.age %>
+</p>
+
+<p>
+  <b>Course:</b>
+  <%=h @form_contact.course %>
+</p>
+
+<p>
+  <b>Othercourse:</b>
+  <%=h @form_contact.otherCourse %>
+</p>
+
+<p>
+  <b>Occupation:</b>
+  <%=h @form_contact.occupation %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @form_contact.email %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%=h @form_contact.phone %>
+</p>
+
+<p>
+  <b>Comment:</b>
+  <%=h @form_contact.comment %>
+</p>
+
+
+<%= link_to 'Edit', edit_form_contact_path(@form_contact) %> |
+<%= link_to 'Back', form_contacts_path %>

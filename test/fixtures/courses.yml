@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  duration: MyString
+  teacher: MyString
+  cost: MyString
+  currency: MyString
+
+two:
+  name: MyString
+  duration: MyString
+  teacher: MyString
+  cost: MyString
+  currency: MyString

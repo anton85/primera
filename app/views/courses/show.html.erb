@@ -1,0 +1,28 @@
+<p>
+  <b>Name:</b>
+  <%=h @course.name %>
+</p>
+
+<p>
+  <b>Duration:</b>
+  <%=h @course.duration %>
+</p>
+
+<p>
+  <b>Teacher:</b>
+  <%=h @course.teacher %>
+</p>
+
+<p>
+  <b>Cost:</b>
+  <%=h @course.cost %>
+</p>
+
+<p>
+  <b>Currency:</b>
+  <%=h @course.currency %>
+</p>
+
+
+<%= link_to 'Edit', edit_course_path(@course) %> |
+<%= link_to 'Back', courses_path %>

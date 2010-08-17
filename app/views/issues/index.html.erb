@@ -1,0 +1,19 @@
+<% title = "Todas las incidencias" %>
+
+
+<h1>Listing issues</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Code</th>
+    <th>Description</th>
+  </tr>
+
+  <%= render :partial => "issue", :collection=>@issues %>
+
+</table>
+
+<br />
+
+<%= link_to 'New issue', new_issue_path %>

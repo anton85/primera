@@ -1,0 +1,44 @@
+<h1>Editing form_contact</h1>
+
+<% form_for(@form_contact) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :age %><br />
+    <%= f.text_field :age %>
+  </p>
+  <p>
+    <%= f.label :course %><br />
+    <%= f.text_field :course %>
+  </p>
+  <p>
+    <%= f.label :otherCourse %><br />
+    <%= f.text_field :otherCourse %>
+  </p>
+  <p>
+    <%= f.label :occupation %><br />
+    <%= f.text_field :occupation %>
+  </p>
+  <p>
+    <%= f.label :email %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :phone %><br />
+    <%= f.text_field :phone %>
+  </p>
+  <p>
+    <%= f.label :comment %><br />
+    <%= f.text_field :comment %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @form_contact %> |
+<%= link_to 'Back', form_contacts_path %>
